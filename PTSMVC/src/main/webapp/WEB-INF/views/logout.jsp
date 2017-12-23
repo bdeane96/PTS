@@ -12,6 +12,12 @@
 	<center>
 		<h1 id="header">Picture That</h1>
 		<h2 id="message"> ${message}</h2>
+		<h3 id="redirect_message"> ${redirect}</h3>
 	</center>
 </body>
+
+<script>
+   setTimeout("location.href='http://localhost:8080/PTSMVC/';",3600); 
+</script>
+
 </html>

@@ -8,6 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class LogoutController {
 	String message = "You have logged out!";
+	String redirect = "You will shortly be redirected to the home page";
 	 
 	@RequestMapping("/logout")
 	public ModelAndView showMessage(
@@ -17,6 +18,7 @@ public class LogoutController {
 		
 		ModelAndView mv = new ModelAndView("logout");
 		mv.addObject("message", message);
+		mv.addObject("redirect", redirect);
 		mv.addObject("name", name);
 		return mv;
 	}
