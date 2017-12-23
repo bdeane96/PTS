@@ -5,7 +5,7 @@
 <head>
 <style type="text/css"><%@ include file="resources/css/picturethat.css" %></style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Spring 4 MVC - HelloWorld Index Page</title>
+<title>Picture That</title>
 </head>
 <body>
 	<div>

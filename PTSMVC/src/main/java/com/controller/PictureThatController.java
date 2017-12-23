@@ -1,4 +1,4 @@
-package com.programcreek.helloworld.controller;
+package com.controller;
  
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
  
 @Controller
-public class HelloWorldController {
+public class PictureThatController {
 	String message = "Welcome to Spring MVC!";
  
 	@RequestMapping("/hello")
