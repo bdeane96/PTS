@@ -17,6 +17,7 @@
 	<center>
 		<h1 id="header">Picture That</h1>
 		<h2 id="username"> ${name}</h2>
+		<div id=image>Insert images here!!!</div>
 	</center>
 </body>
 </html>
