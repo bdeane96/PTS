@@ -17,8 +17,8 @@
 		</h3>
 	</div>
 	<h1 id="header">Picture That</h1>
-	<h2 id="username"></h2>
-	<div id="image">Insert images here!!!</div>
+	<h2 id="username">${name} </h2>
+	<div id="image"><img src="http://cdn2-www.dogtime.com/assets/uploads/gallery/pug-puppies/pug-puppy-1.jpg"></div>
 </body>
 
 <script>
@@ -35,17 +35,6 @@ function onLoad() {
     gapi.load('auth2', function() {
       gapi.auth2.init();
     });
-    //var profile = googleUser.getBasicProfile();
-    gapi.load('plus','v1', function(){
-    	alert("bronagh");
- 		var request = gapi.client.plus.people.get({
-   			'userId': 'me'
- 		});
- 		request.execute(function(resp) {
-   		console.log('Retrieved profile for:' + resp.displayName);
- 		});
-	});
-    $("username").append("Bronagh Deane");
 }
 </script>
 </html>
