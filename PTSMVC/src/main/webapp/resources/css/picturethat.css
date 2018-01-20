@@ -14,6 +14,6 @@ body {
 	top: 5px;
 }
 
-#username, #image {
+#username, #image, #token{
 	color: red;
 }
