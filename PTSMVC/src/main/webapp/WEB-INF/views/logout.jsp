@@ -3,20 +3,21 @@
 <html>
 <head>
 <style type="text/css">
-<%@ include file="../../resources/css/main.css" %>
+<%@ include file="../../resources/css/logout.css" %>
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Picture That</title>
 </head>
 <body>
-	<form align="right" name="form1" method="post" action="log_out.php">
-		<label class="logoutLblPos"> <input name="submit2"
-			type="submit" id="submit2" value="log out">
-		</label>
-	</form>
 	<center>
 		<h1 id="header">Picture That</h1>
-		<h2 id="username"> ${name}</h2>
+		<h2 id="message"> ${message}</h2>
+		<h3 id="redirect_message"> ${redirect}</h3>
 	</center>
 </body>
+
+<script>
+   setTimeout("location.href='http://localhost:8080/PTSMVC/';",3600); 
+</script>
+
 </html>
